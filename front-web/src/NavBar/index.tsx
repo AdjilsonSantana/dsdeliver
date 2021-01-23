@@ -1,12 +1,13 @@
 import { logDOM } from '@testing-library/react';
 import './styles.css';
 import {ReactComponent as Logo} from './logo.svg';
+import { Link } from 'react-router-dom';
 
 function NavBar(){
     return (
         <nav className="main-navbar">
             <Logo />
-            <a href="Home" className="logo-text">DS Delivery</a>
+            <Link to="/" className="logo-text">DS Delivery</Link>
         </nav>
     )
 
