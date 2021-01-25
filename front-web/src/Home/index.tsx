@@ -19,10 +19,11 @@ function Home() {
                         </Link>
                         {/* <div className="home-image">
                         <MainImage />
-                   </div> */}
+                            </div> */}
                     </div>
                 </div>
             </div>
+            <Footer />
             
         </>
     )
