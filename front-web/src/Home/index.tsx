@@ -17,9 +17,6 @@ function Home() {
                         <Link to="/orders" className="home-btn-order" >
                                     Order
                         </Link>
-                        {/* <div className="home-image">
-                        <MainImage />
-                            </div> */}
                     </div>
                 </div>
             </div>
