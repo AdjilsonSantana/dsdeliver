@@ -9,7 +9,7 @@ export function fetchProducts(){
 }	
 
 export function fetchLocalMapBox(local: string){	
-    return axios (`https://api.mapbox.com/geocoding/v5/mapbox.places/${local}.json?access_token=${`pk.eyJ1IjoiYWRqaWxzb24iLCJhIjoiY2trZWpiYjV1MGs1dTJ3cXR3d21hajBteCJ9._gwJ-kFnNuVgrh_yqBhceQ`}`)	
+    return axios (`https://api.mapbox.com/geocoding/v5/mapbox.places/${local}.json?access_token=${mapboxToken}`)	
 }	
 
 export function saveOrder(payload : OrderPayLoad){	
